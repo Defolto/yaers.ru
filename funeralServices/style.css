@@ -1,0 +1,13 @@
+.list-group-item{
+    background-color: transparent;
+    border: 0px solid black;
+    color: black;
+}
+.list-group-item:hover{
+    background-color: transparent;
+    border: 0px solid black;
+}
+.list-group > .active{
+    background-color: transparent;
+    border: 0px solid black;
+}
