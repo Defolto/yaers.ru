@@ -14,7 +14,13 @@ body{
     padding: 10px 30px;
     border: 0px solid black;
     color: white;
+    cursor: pointer;
+    transition: .5s;
 }
+.call:hover{
+    background-color: #ac2539;
+}
+
 .bag{
     overflow: hidden;
 }
