@@ -4,21 +4,33 @@
     height: 650px;
 }
 #block{
-    width: 900px;
-    background-color: rgba(0, 0, 0, 0.199);
+    min-width: 800px;
+    background-color: rgba(0, 0, 0, 0.399);
     color: white;
     padding: 20px;
+    font-size: 35px;
+    font-weight: 700;
 }
 .block{
     width: 100%;
-    background-color: brown;
+    background-color: #d92b45;
     padding: 20px;
+    font-size: 22px;
+    cursor: pointer;
+    transition: .6s;
+}
+.block:hover{
+    background-color: #ad1e34;
 }
 #BlockText1{
     border-top: 1px solid white;
     border-bottom: 1px solid white;
 }
 #BlockText2{
-    border-bottom: 1px solid rgb(247, 140, 39);
+    border-bottom: 1px solid #d92b45;
 }
+.link{
+    font-size: 25px;
+}
+
 

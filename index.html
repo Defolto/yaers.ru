@@ -12,14 +12,21 @@
 <body>
 <div class="bag">
     <div class="container-fluid mt-4 px-0">
-        <div class="row d-flex justify-content-center">
-            <img src="img/logo.png" alt="" width="70px" height="70px"> 
-            <p class="text-white">Круглосуточно</p>
+        <div class="row">
+            <div class="col-md-4">
+
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="img/logo.png" alt="" width="70px" height="70px"> 
+            </div>
+            <div class="col-md-4 px-5">
+                <p class="text-white text-right contact">Круглосуточно: +7 (4852) 68-53-77<br> +7 (4852) 68-53-75</p>
+            </div>
         </div>
         <div class="row d-flex justify-content-center" style="color: black;">
-            <h1>ЯРОСЛАВСКАЯ ЕДИНАЯ РИТУАЛЬНАЯ СЛУЖБА</h1>
+            <h1 class="text-center" style="font-size: 40px; font-weight: 600">ЯРОСЛАВСКАЯ ЕДИНАЯ РИТУАЛЬНАЯ СЛУЖБА</h1>
         </div>
-        <div class="row d-flex justify-content-center text-white text-center menu">
+        <div class="row d-flex justify-content-center text-white text-center menu" id="gamb">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <button class="navbar-toggler" type="button" style="background-color:#e2e2e2;" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -40,7 +47,7 @@
         <div class="row m-auto">
             <div class="col-12">
                 <div id="block">
-                    <p class="text-center">СКОРБИМ О ПРОШЛОМ<br>ДУМАЕМ О НАСТОЯЩЕМ</p>
+                    <p class="text-center">СКОРБИМ О ПРОШЛОМ<br>ДУМАЕМ О НАСТОЯЩЕМ!</p>
                 </div>
             </div>
         </div>
@@ -49,113 +56,118 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="block">
-                    <p class="text-center text-white m-0">ЕСЛИ УМЕР БЛИЗКИЙ ЧЕЛОВЕК</p>
+                    <p class="text-center text-white m-0" onclick="return location.href = 'funeralServices/'">ЕСЛИ УМЕР БЛИЗКИЙ ЧЕЛОВЕК</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="block">
-                    <p class="text-center text-white m-0">КРУГЛОСУТОЧНАЯ ПОМОЩЬ</p>
+                    <p class="text-center text-white m-0" onclick="return location.href = 'ritualGoods'">КРУГЛОСУТОЧНАЯ ПОМОЩЬ</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="block">
-                    <p class="text-center text-white m-0">ВЫХОВ САНИТАРНОЙ БРИГАДЫ</p>
+                    <p class="text-center text-white m-0" onclick="return location.href = 'contact/'">ВЫЗОВ САНИТАРНОЙ БРИГАДЫ</p>
                 </div>
             </div>
         </div>
     </div>
     <div class="container-fluid">
-        <div class="row d-flex justify-content-center" style="color: black;">
-            <p class="text-white">КОМПЛЕКСНЫЕ РИТУАЛЬНЫЕ УСЛУГИ</p>
+        <div class="row d-flex justify-content-center" style="font-size: 40px">
+            <p class="text-white text-center">КОМПЛЕКСНЫЕ РИТУАЛЬНЫЕ УСЛУГИ</p>
         </div>
         <div class="row">
-            <div class="col-md-4 p-5 text-center">
-                <img src="img/economy.png" alt="" width="90%">
-                <a href="#">ЭКОНОМ</a>
+            <div class="col-md-4 p-5 text-center link">
+                <img class="mb-3" src="img/economy.png" alt="" width="75%">
+                <a href="#" style="color: white !important;">"ЭКОНОМ"</a>
             </div>
-            <div class="col-md-4 p-5 text-center">
-                <img src="img/standart.png" alt="" width="90%">
-                <a href="#">СТАНДАРТ</a>
+            <div class="col-md-4 p-5 text-center link">
+                <img class="mb-3" src="img/standart.png" alt="" width="75%">
+                <a href="#" style="color: white !important;">"СТАНДАРТ"</a>
             </div>
-            <div class="col-md-4 p-5 text-center">
-                <img src="img/premium.png" alt="" width="90%">
-                <a href="#">ПРЕМИУМ</a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 p-5 text-center">
-                <img src="img/islam.png" alt="" width="90%">
-                <a href="#">"Исламские похороны"</a>
-            </div>
-            <div class="col-md-4 p-5 text-center">
-                <img src="img/gratuitous.png" alt="" width="90%">
-                <a href="#">"Безвозмездные похороны"</a>
-            </div>
-            <div class="col-md-4 p-5 text-center">
-                <img src="img/cremation.png" alt="" width="90%">
-                <a href="#">Кремация</a>
+            <div class="col-md-4 p-5 text-center link">
+                <img class="mb-3" src="img/premium.png" alt="" width="75%">
+                <a href="#" style="color: white !important;">"ПРЕМИУМ"</a>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4 p-5 text-center">
-                <img src="img/song.png" alt="" width="90%">
-                <a href="#">Религиозный обряд<br> "Отпевание"</a>
+            <div class="col-md-4 p-5 text-center link">
+                <img class="mb-3" src="img/islam.png" alt="" width="75%">
+                <a href="#" style="color: white !important;">"Исламские похороны"</a>
             </div>
-            <div class="col-md-4 p-5 text-center">
-                <img src="img/live.png" alt="" width="90%">
-                <a href="#">"Прижизненный договор"</a>
+            <div class="col-md-4 p-5 text-center link">
+                <img class="mb-3" src="img/gratuitous.png" alt="" width="75%">
+                <a href="#" style="color: white !important;">"Безвозмездные похороны"</a>
             </div>
-            <div class="col-md-4 p-5 text-center">
-                <img src="img/car.png" alt="" width="90%">
-                <a href="#">Специализированный транспорт</a>
+            <div class="col-md-4 p-5 text-center link">
+                <img class="mb-3" src="img/cremation.png" alt="" width="75%">
+                <a href="#" style="color: white !important;">Кремация</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 p-5 text-center link">
+                <img class="mb-3" src="img/song.png" alt="" width="75%">
+                <a href="#" style="color: white !important;">Религиозный обряд<br> "Отпевание"</a>
+            </div>
+            <div class="col-md-4 p-5 text-center link">
+                <img class="mb-3" src="img/live.png" alt="" width="75%">
+                <a href="#" style="color: white !important;">"Прижизненный договор"</a>
+            </div>
+            <div class="col-md-4 p-5 text-center link">
+                <img class="mb-3" src="img/car.png" alt="" width="75%">
+                <a href="#" style="color: white !important;">Специализированный транспорт</a>
             </div>
         </div>
     </div>
-    <div class="container-fluid" style="color: black" id="BlockText1">
+    <div class="container-fluid py-4" style="color: black" id="BlockText1">
         <div class="row d-flex justify-content-center" style="color: black;">
-            <p>РИТУАЛЬНЫЕ ТОВАРЫ</p>
+            <p style="font-size: 40px; font-weight: 600">Ритуальные товары</p>
         </div>
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 text">
                 <p>"Ярославская Единая Ритуальная Служба" предлагает все необходимое, что потребуется для организации похорон. В нашем городе проживают люди различных национальностей и конфессий, соответсвенно, каждому из них для прощания у усопшим требуются соотвествующие его верованиям ритуальные принадлежности. В нашем магазине ритуальных принадлежностей вы найдёте широкий ассортимент.</p>
             </div>
         </div>
     </div>
-    <div class="container-fluid" style="color: black"  id="BlockText2">
+    <div class="container-fluid py-4" style="color: black"  id="BlockText2">
         <div class="row d-flex justify-content-center" style="color: black;">
-            <p>О НАС</p>
+            <p style="font-size: 40px; font-weight: 600">О нас</p>
         </div>
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 text">
                 <p>Опытные специалисты "Ярославской Единой Ритуальной Службы" решат любые возможные нюансы, которые сопровождают организацию похорон. "Ярославская Единая Государственная служба" успешно работает на рынке ритуальных услуг с 1997 года, имеет представительство в городе Ярославль, Ярославском районе и области.</p>
                 <p>Особое внимание в нашей ритуальной службе уделяется повышению уровня обслуживания заказчиков. С этой целью ведётся постоянное обучение и повышение квалификации работников, а также улучшение условий обслуживания родных и близких усопшего. Наши работники постраются максимально взять на себя хлопоты по организации и проведению похорон.</p>
             </div>
         </div>
     </div>
+    <!-- СДелать больше сжатие md -> xl or lg -->
     <div class="container-fluid">
         <div class="row" style="color: black">
-            <div class="col-md-2 text-center">
-                <img src="img/logo.png" alt="" width="70px" height="70px"> 
+            <div class="col-md-2 text-center pt-4 px-0">
+                <img src="img/logo.png" alt="" width="100px"> 
             </div>
-            <div class="col-md-8" id="FooterBorder">
-                <div class="row">
-                    <p>г.Ярославль пр-т Ленина 19</p>
+            <div class="col-md-8 px-5" id="FooterBorder">
+                <div class="row mt-4">
+                    <img src="img/position.png" class="mr-3" alt="" width="40px" height="40px">
+                    <p class="text">г.Ярославль пр-т Ленина 19</p>
                 </div>
-                <div class="row">
-                    <p>Круглосуточно номера: 68-53-77, 68-53-75</p>
+                <div class="row my-4">
+                    <img src="img/phone.png" class="mr-3" alt="" width="40px" height="40px">
+                    <p class="text">Круглосуточно номера: 68-53-77, 68-53-75</p>
                 </div>
-                <div class="row">
-                    <p>edin.ritualslujba@yandex.ru</p>
+                <div class="row mb-4">
+                    <img src="img/email.png" class="mr-3" alt="" width="40px" height="40px">
+                    <p class="text">edin.ritualslujba@yandex.ru</p>
                 </div>
             </div>
-            <div class="col-md-2 text-right">
-                <button>Связаться</button>
-                <p>2019 YAERS.RU</p>
+            <div class="col-md-2 p-4 text-right">
+                <button class="call">Связаться</button>
+                <p class="mt-1 text-white">2019 YAERS.RU</p>
             </div>
         </div>
     </div>
 </div>
     <script src="jquery-1.11.0.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -2,10 +2,12 @@
     background-color: transparent;
     border: 0px solid black;
     color: black;
+    transition: .4s;
 }
 .list-group-item:hover{
     background-color: transparent;
     border: 0px solid black;
+    color: #d92b45;
 }
 .list-group > .active{
     background-color: transparent;
